@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import os
 import discord
+from discord.ext import commands
 import uuid
 from discord.ext import commands
 from modules import *

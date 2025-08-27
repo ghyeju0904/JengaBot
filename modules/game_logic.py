@@ -94,3 +94,4 @@ async def auto_pick_timer(guild):
         print(f"auto_pick_timer 오류 발생: {e}")
         if guild_id in active_timers:
             del active_timers[guild_id]
+

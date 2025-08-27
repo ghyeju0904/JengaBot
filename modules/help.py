@@ -42,3 +42,4 @@ async def show_help(ctx):
 • `!status`로 현재 상황을 언제든 확인 가능"""
     
     await ctx.send(help_msg)
+

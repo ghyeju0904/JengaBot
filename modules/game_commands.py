@@ -303,3 +303,4 @@ async def show_status(ctx):
         status_msg += "\n⏸️ **상태:** 일시정지됨"
     
     await ctx.send(status_msg)
+

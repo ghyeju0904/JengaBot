@@ -51,3 +51,4 @@ async def add_user_points(guild_id, user_id, points_to_add):
     
     await save_user_points()
     return user_points[guild_id][user_id]
+

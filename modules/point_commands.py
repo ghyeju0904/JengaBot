@@ -100,3 +100,4 @@ async def points_command(ctx):
     
     points = await get_user_points(guild_id, user_id)
     await ctx.send(f"💰 {ctx.author.mention}님의 현재 포인트: **{points}포인트**")
+
